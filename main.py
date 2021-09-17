@@ -137,5 +137,4 @@ async def on_voice_state_update(member, before, after):
 
     voice.play(discord.FFmpegPCMAudio('audio.mp3'), after=None)
 
-
-bot.run('ODg1ODMxODkzODIyNjA3NDIw.YTsxPQ.Pnmu-Tp_HN8zrFm3v3eynal25ss')
+bot.run(os.getenv("TOKEN"))
